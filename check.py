@@ -5,8 +5,8 @@ import urllib.request
 
 # لینک‌های فیلترشده خودت را اینجا داخل گیومه بگذار
 URLS = [
-    ("WG-Zimmer", "https://www.wg-gesucht.de/wg-zimmer-in-Muenster.91.0.1.0.html"),
-    ("1-Zimmer", "https://www.wg-gesucht.de/1-zimmer-wohnungen-in-Muenster.91.1.1.0.html#back_to_ad_14341674"),
+    ("WG-Zimmer 🧑‍🧑‍🧒‍🧒", "https://www.wg-gesucht.de/wg-zimmer-in-Muenster.91.0.1.0.html"),
+    ("1-Zimmer 🚺", "https://www.wg-gesucht.de/1-zimmer-wohnungen-in-Muenster.91.1.1.0.html"),
 ]
 
 TOKEN = os.environ["TELEGRAM_TOKEN"]
@@ -44,7 +44,7 @@ for label, search_url in URLS:
                 seen.add(path)
                 new_found = True
                 full_url = f"https://www.wg-gesucht.de{path}"
-                msg = f"🏠 New {label} found:\n{full_url}"
+                msg = f"Sanaaaa i found new {label} click here baby:\n{full_url}"
                 
                 tg_url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
                 data = urllib.parse.urlencode({"chat_id": CHAT_ID, "text": msg}).encode("utf-8")
