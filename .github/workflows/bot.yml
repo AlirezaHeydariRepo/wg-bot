@@ -1,9 +1,7 @@
 name: WG-Gesucht Alert Bot
 
 on:
-  schedule:
-    - cron: '*/10 * * * *' # هر ۱۰ دقیقه یک‌بار اجرا می‌شود
-  workflow_dispatch:       # دکمه اجرای دستی برای تست
+  workflow_dispatch:
 
 permissions:
   contents: write
