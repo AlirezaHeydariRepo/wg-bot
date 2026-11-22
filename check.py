@@ -5,8 +5,8 @@ import urllib.request
 
 # لینک‌های فیلترشده خودت را اینجا داخل گیومه بگذار
 URLS = [
-    ("WG-Zimmer 🧑‍🧑‍🧒‍🧒", "https://www.wg-gesucht.de/wg-zimmer-in-Muenster.91.0.1.0.html"),
-    ("1-Zimmer 🚺", "https://www.wg-gesucht.de/1-zimmer-wohnungen-in-Muenster.91.1.1.0.html"),
+    ("WG-Zimmer 🧑‍🧑‍🧒‍🧒", "https://www.wg-gesucht.de/wg-zimmer-in-Muenster.91.0.1.0.html?categories%5B%5D=0&rent_types%5B%5D=2&rent_types%5B%5D=1&rent_types%5B%5D=3&rent_range=0%2C450&min_rent=0&max_rent=450&offer_filter=1&city_id=91&sort_order=0&noDeact=1&rMax=450&dFr=1797332400"),
+    ("1-Zimmer 🚺", "https://www.wg-gesucht.de/1-zimmer-wohnungen-in-Muenster.91.1.1.0.html?categories%5B%5D=1&rent_types%5B%5D=2&rent_types%5B%5D=1&rent_types%5B%5D=3&rent_range=0%2C450&min_rent=0&max_rent=450&offer_filter=1&city_id=91&sort_order=0&noDeact=1&rMin=0&rMax=450&dFr=1797332400"),
 ]
 
 TOKEN = os.environ["TELEGRAM_TOKEN"]
